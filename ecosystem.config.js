@@ -10,7 +10,7 @@ module.exports = {
       key: '~/.ssh/tijanaKey.pem',
       ref: 'origin/master',
       repo: 'https://github.com/Mirko965/redhat-node-aws.git',
-      path: '/home/ec2-user',
+      path: '/home/ec2-user/redhat-node-aws',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
