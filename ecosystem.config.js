@@ -11,7 +11,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'https://github.com/Mirko965/redhat-node-aws.git',
       path: '/home/ec2-user/redhat-node-aws',
-      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js && pm2 startup && pm2 save'
+      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
 }
